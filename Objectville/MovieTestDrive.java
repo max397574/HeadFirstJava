@@ -8,7 +8,7 @@ public class MovieTestDrive{
         two.title = "Lost in cubicle space";
         two.genre = "Comedy";
         two.rating = 5;
-        two.playIt();
+        two.PlayIt();
         Movie three = new Movie();
         three.title = "Byte club";
         three.genre = "Tragic but ultimately uplifiting";
