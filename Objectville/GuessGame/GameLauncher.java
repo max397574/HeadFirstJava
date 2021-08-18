@@ -4,4 +4,3 @@ public class GameLauncher{
         game.StartGame();
     }
 }
-

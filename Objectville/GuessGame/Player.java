@@ -5,4 +5,3 @@ public class Player{
         System.out.println("I'm guessing " + number);
     }
 }
-
