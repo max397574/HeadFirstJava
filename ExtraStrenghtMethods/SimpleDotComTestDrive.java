@@ -13,13 +13,14 @@ public class SimpleDotComTestDrive {
         boolean isAlive = true;
 
         while(isAlive = true) {
-            String guess = helper.getUserInput("Enter a number ");
+            String userGuess = helper.getUserInput("Enter a number ");
 
             String result = theDotCom.checkYourself(userGuess);
             numOffGuesses++;
             if (result.equals("kill")) {
                 isAlive = false;
                 System.out.println("You took " + numOffGuesses + " guesses.");
+                break;
             }
         }
     }
