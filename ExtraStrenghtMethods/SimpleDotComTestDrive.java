@@ -13,7 +13,7 @@ public class SimpleDotComTestDrive {
         boolean isAlive = true;
 
         while(isAlive = true) {
-            String guess = helper.getUserInput("Enter a number ")
+            String guess = helper.getUserInput("Enter a number ");
 
             String result = theDotCom.checkYourself(userGuess);
             numOffGuesses++;
